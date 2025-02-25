@@ -1,0 +1,95 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3; /* Azul escuro */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5rem;
+}
+
+/* Estilos do Formulário */
+.question-section {
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.question {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block; /* Faz a label ocupar a linha toda */
+    margin-bottom: 0.5rem;
+}
+
+
+input[type="radio"] {
+   margin-right: 0.4rem;
+    accent-color: #0056b3; /* Muda a cor do radio button (opcional) */
+
+}
+
+/* Estilo do Botão */
+#submit-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Estilos dos Resultados */
+#results {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#radar-chart {
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+
+#overall-score, #recommendations{
+    font-size: 1.1em;
+    margin: .8em;
+    font-weight: bold;
+}
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #ddd;
+    margin-top: 2rem;
+}
